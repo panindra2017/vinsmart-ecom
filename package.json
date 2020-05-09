@@ -1,12 +1,12 @@
 {
   "name": "vinsmart-ecom",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "helper tool for vinmsart ecom framework",
   "main": "lib/index.js",
-  "types":"lib",
+  "types": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"tsc -p ."
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,9 @@
     "url": "https://github.com/panindra2017/vinsmart-ecom/issues"
   },
   "homepage": "https://github.com/panindra2017/vinsmart-ecom#readme",
-  "dependencies": {},
+  "dependencies": {
+    "date-fns": "^2.13.0"
+  },
   "devDependencies": {
     "typescript": "^3.8.3"
   }
