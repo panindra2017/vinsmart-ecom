@@ -1,4 +1,7 @@
- const curYear= new Date().getFullYear()
-export function getCopyRightText(companyName: string) {
-  return "©" + " " + companyName.toUpperCase()+" "+curYear
+const curYear = new Date().getFullYear();
+interface IGetCopyRightText {
+  name: string;
+}
+export function getCopyRightText(props: IGetCopyRightText) {
+  return "©" + " " + props.name.toUpperCase() + " " + curYear;
 }
