@@ -1,0 +1,28 @@
+{
+  "name": "vinsmart-ecom",
+  "version": "1.0.0",
+  "description": "helper tool for vinmsart ecom framework",
+  "main": "lib/index.js",
+  "types":"lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panindra2017/vinsmart-ecom.git"
+  },
+  "keywords": [
+    "vinsmart"
+  ],
+  "author": "Panindra K R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panindra2017/vinsmart-ecom/issues"
+  },
+  "homepage": "https://github.com/panindra2017/vinsmart-ecom#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
