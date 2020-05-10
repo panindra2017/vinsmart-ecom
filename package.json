@@ -1,6 +1,6 @@
 {
   "name": "vinsmart-ecom",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "helper tool for vinmsart ecom framework",
   "main": "lib/index.js",
   "types": "lib",
